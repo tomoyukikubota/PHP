@@ -1,7 +1,7 @@
 <?php
 $rate =1.1; //関数の外全て有効（グローバルスコープ）
 
-function sum($am, $b, $c)
+function sum($a, $b, $c)
 {
   $rate = 1.08; //関数内だけで有効（ローカルスコープ）
   return ($a + $b + $c) * $rate;
